@@ -17,6 +17,8 @@
 #define BAOMINGXVZHI  @"http://mnks.jxedt.com/ckm4/"
 #define XINSHOUSHANGLU  @"http://mnks.jxedt.com/ckm4/"
 
+
+#import "loginViewController.h"
 @interface ViewController ()
 {
     SelectView *_selectView;
@@ -91,12 +93,21 @@
     _selectView = [[SelectView alloc] initWithFrame:self.view.frame andBtn:selectBtn];
     _selectView.alpha = 0;
     [self.view addSubview:_selectView];
+    [self login];
     
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)login
+{
+    loginViewController *loginvc = [[loginViewController alloc] init];
+    [self presentViewController:loginvc animated:YES completion:^{
+        
+    }];
 }
 
 @end

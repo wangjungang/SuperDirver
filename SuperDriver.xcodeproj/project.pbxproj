@@ -239,6 +239,11 @@
 		0ADDE4751CB0FEF200033900 /* TestScoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDE4741CB0FEF200033900 /* TestScoreModel.m */; };
 		0ADDE4791CB10B0800033900 /* ShowScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDE4771CB10B0800033900 /* ShowScoreViewController.m */; };
 		0ADDE47C1CB10C4F00033900 /* ShowScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADDE47B1CB10C4F00033900 /* ShowScoreViewController.xib */; };
+		5353ACB41E6322A8005DAF3D /* logupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353ACB11E6322A8005DAF3D /* logupCell.m */; };
+		5353ACB51E6322A8005DAF3D /* logupCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353ACB31E6322A8005DAF3D /* logupCell2.m */; };
+		5353ACBC1E6322E0005DAF3D /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353ACB91E6322E0005DAF3D /* loginViewController.m */; };
+		5353ACBD1E6322E0005DAF3D /* logupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353ACBB1E6322E0005DAF3D /* logupViewController.m */; };
+		5353ACBF1E632361005DAF3D /* lgbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5353ACBE1E632361005DAF3D /* lgbg.png */; };
 		537C95C41E5DE0FA007181EC /* baomingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C95C31E5DE0FA007181EC /* baomingViewController.m */; };
 		537C95C71E5DE105007181EC /* xinshouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C95C61E5DE105007181EC /* xinshouViewController.m */; };
 		53D2265A1E5F365F009AD0F0 /* jiaolianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D226591E5F365F009AD0F0 /* jiaolianViewController.m */; };
@@ -541,6 +546,15 @@
 		139605BD86F147E65B2B2FB9 /* libPods-SuperDriverTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperDriverTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38544DA32E31A00D4F5938B1 /* libPods-SuperDriver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperDriver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B74E52A702F219535674A1 /* libPods-SuperDriverUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperDriverUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5353ACB01E6322A8005DAF3D /* logupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logupCell.h; sourceTree = "<group>"; };
+		5353ACB11E6322A8005DAF3D /* logupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logupCell.m; sourceTree = "<group>"; };
+		5353ACB21E6322A8005DAF3D /* logupCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logupCell2.h; sourceTree = "<group>"; };
+		5353ACB31E6322A8005DAF3D /* logupCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logupCell2.m; sourceTree = "<group>"; };
+		5353ACB81E6322E0005DAF3D /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		5353ACB91E6322E0005DAF3D /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		5353ACBA1E6322E0005DAF3D /* logupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logupViewController.h; sourceTree = "<group>"; };
+		5353ACBB1E6322E0005DAF3D /* logupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logupViewController.m; sourceTree = "<group>"; };
+		5353ACBE1E632361005DAF3D /* lgbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lgbg.png; sourceTree = "<group>"; };
 		537C95C21E5DE0FA007181EC /* baomingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baomingViewController.h; sourceTree = "<group>"; };
 		537C95C31E5DE0FA007181EC /* baomingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baomingViewController.m; sourceTree = "<group>"; };
 		537C95C51E5DE105007181EC /* xinshouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xinshouViewController.h; sourceTree = "<group>"; };
@@ -639,6 +653,7 @@
 			isa = PBXGroup;
 			children = (
 				0A53E6E61CA973EB00974733 /* Classes */,
+				5353ACAF1E63228A005DAF3D /* 登录注册 */,
 				0A6894B91CAA6B6B001B337E /* Source */,
 				0A53E6B31CA973C700974733 /* Supporting Files */,
 			);
@@ -1208,6 +1223,39 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5353ACAF1E63228A005DAF3D /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				5353ACB71E6322B6005DAF3D /* c */,
+				5353ACB61E6322AB005DAF3D /* v */,
+			);
+			name = "登录注册";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5353ACB61E6322AB005DAF3D /* v */ = {
+			isa = PBXGroup;
+			children = (
+				5353ACB01E6322A8005DAF3D /* logupCell.h */,
+				5353ACB11E6322A8005DAF3D /* logupCell.m */,
+				5353ACB21E6322A8005DAF3D /* logupCell2.h */,
+				5353ACB31E6322A8005DAF3D /* logupCell2.m */,
+				5353ACBE1E632361005DAF3D /* lgbg.png */,
+			);
+			name = v;
+			sourceTree = "<group>";
+		};
+		5353ACB71E6322B6005DAF3D /* c */ = {
+			isa = PBXGroup;
+			children = (
+				5353ACB81E6322E0005DAF3D /* loginViewController.h */,
+				5353ACB91E6322E0005DAF3D /* loginViewController.m */,
+				5353ACBA1E6322E0005DAF3D /* logupViewController.h */,
+				5353ACBB1E6322E0005DAF3D /* logupViewController.m */,
+			);
+			name = c;
+			sourceTree = "<group>";
+		};
 		537C95BA1E5DE09D007181EC /* 报名须知 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1222,7 +1270,6 @@
 			isa = PBXGroup;
 			children = (
 				537C95C11E5DE0E8007181EC /* M */,
-				537C95C01E5DE0E7007181EC /* V */,
 				537C95BF1E5DE0E4007181EC /* C */,
 			);
 			name = "新手上路";
@@ -1268,13 +1315,6 @@
 				537C95C61E5DE105007181EC /* xinshouViewController.m */,
 			);
 			name = C;
-			sourceTree = "<group>";
-		};
-		537C95C01E5DE0E7007181EC /* V */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = V;
 			sourceTree = "<group>";
 		};
 		537C95C11E5DE0E8007181EC /* M */ = {
@@ -1545,6 +1585,7 @@
 				0A6895971CAA6B6B001B337E /* 234.png in Resources */,
 				0A6896131CAA6B6B001B337E /* 685.png in Resources */,
 				0A6896241CAA6B6B001B337E /* 2.png in Resources */,
+				5353ACBF1E632361005DAF3D /* lgbg.png in Resources */,
 				0A6895C11CAA6B6B001B337E /* 276.png in Resources */,
 				0A6895C31CAA6B6B001B337E /* 278.png in Resources */,
 				0A68958F1CAA6B6B001B337E /* 226.png in Resources */,
@@ -1791,6 +1832,8 @@
 				0A53E7221CA973EB00974733 /* AppDelegate.m in Sources */,
 				0A53E7261CA973EB00974733 /* FMDatabaseQueue.m in Sources */,
 				53D226661E5F3766009AD0F0 /* baoViewController.m in Sources */,
+				5353ACB51E6322A8005DAF3D /* logupCell2.m in Sources */,
+				5353ACBC1E6322E0005DAF3D /* loginViewController.m in Sources */,
 				0AC6D44E1CAF87C0000DC91D /* SubChapterModel.m in Sources */,
 				0A35EC871CAD4E7700E74BA9 /* SheetView.m in Sources */,
 				53D226621E5F36C1009AD0F0 /* NSString+Extend.m in Sources */,
@@ -1817,6 +1860,8 @@
 				0A53E7271CA973EB00974733 /* FMResultSet.m in Sources */,
 				0A6896321CAA70ED001B337E /* AnswerModel.m in Sources */,
 				53D226761E5F38EE009AD0F0 /* Cell.m in Sources */,
+				5353ACB41E6322A8005DAF3D /* logupCell.m in Sources */,
+				5353ACBD1E6322E0005DAF3D /* logupViewController.m in Sources */,
 				0A53E7211CA973EB00974733 /* SelectView.m in Sources */,
 				0A6894AA1CAA3753001B337E /* SubjectOneCell.m in Sources */,
 				537C95C41E5DE0FA007181EC /* baomingViewController.m in Sources */,
